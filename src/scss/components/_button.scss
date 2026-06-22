@@ -1,0 +1,55 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transform: scale(1);
+    cursor: poiter;
+
+    &.btn-primary,
+    &.btn-secondary {
+
+        transition: transform 0.5s ease;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 7px;
+    }
+
+    
+
+    &.btn-primary {
+        color: var(--grey);
+        background-color: var(--primary);
+        border: solid 1px var(--primary);
+
+        &:hover {
+            transform: scale(1.1);
+            background-color: var(--primary-010);
+            color: var(--white);
+        }
+    }
+
+    &.btn-secondary {
+        color: var(--white);
+        background-color: transparent;
+        border: solid 1px var(--white);
+
+        &:hover {
+            transform: scale(1.1);
+            color: var(--black);
+            background-color: var(--white);
+            border: solid 1px var(--white);
+        }
+    }
+
+    @media (max-width:750px) {
+        &.btn-primary,
+        &.btn-secondary {
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
