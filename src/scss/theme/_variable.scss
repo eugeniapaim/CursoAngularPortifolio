@@ -5,10 +5,15 @@
     --secondary: #06628a;
     --secondary-010: #06374e;
 
+    // Novo: acento neon para dar o toque "tech" (glows, bordas, detalhes)
+    --neon: #29f1ff;
+    --neon-010: #0fc4d1;
+
     --white: #fff;
 
     --black: #10101a;
     --black-010: #2a2a30;
+    --black-020: #1c1c24; // novo tom intermediário, usado em cards/superfícies
 
-    --grey: 9b9ba0;
+    --grey: #9b9ba0; // corrigido: faltava o "#", a variável estava inválida
 }

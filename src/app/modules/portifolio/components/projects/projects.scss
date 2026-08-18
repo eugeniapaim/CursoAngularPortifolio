@@ -9,6 +9,15 @@
 
     background-color: var(--black-010);
 
+    &::before {
+        content: '';
+        width: 60px;
+        height: 3px;
+        margin-bottom: 14px;
+        border-radius: 2px;
+        background: linear-gradient(90deg, var(--secondary), var(--neon));
+    }
+
     @media (max-width:750px) {
         div {
             width: 100%;
@@ -50,14 +59,15 @@
                 height: 100%;
                 cursor: pointer;
 
-                background: var(--black-010);
+                background: var(--black-020);
                 border: 2px solid var(--primary);
                 border-radius: 7px;
-                transition: 0.5s;
+                transition: .35s ease;
 
                 &:hover {
                     background-color: var(--primary);
-                    transform: scale(1.1);
+                    transform: scale(1.08);
+                    box-shadow: 0 0 26px rgba(47, 191, 113, .5);
                 }
             }
         }

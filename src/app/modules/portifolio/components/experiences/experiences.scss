@@ -27,6 +27,17 @@
         background: var(--black-010);
         color: var(--grey);
         border-radius: 7px;
+        border: 1px solid transparent;
+        transition: 500ms ease-out, border-color .3s ease, box-shadow .3s ease;
+
+        &:hover {
+            border-color: var(--primary);
+        }
+
+        &[open] {
+            border-color: var(--neon);
+            box-shadow: 0 0 26px rgba(41, 241, 255, .15);
+        }
 
         summary,
         article {
@@ -40,7 +51,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: var(--primary);
+            background: linear-gradient(90deg, var(--primary) 0%, var(--primary-010) 100%);
 
             p {
                 font-size: 14px;

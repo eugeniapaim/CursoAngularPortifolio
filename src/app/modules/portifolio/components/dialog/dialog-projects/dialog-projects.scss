@@ -1,5 +1,14 @@
-::ng-deep .dialog-container-projects .mdc-dialog_container{
+::ng-deep .dialog-container-projects .mdc-dialog__container {
     width: 850px;
+}
+
+// efeito de vidro no painel do modal (glassmorphism sutil)
+::ng-deep .dialog-container-projects .mdc-dialog__surface {
+    background: rgba(26, 26, 34, .9) !important;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(41, 241, 255, .2);
+    box-shadow: 0 0 46px rgba(0, 0, 0, .55);
 }
 
 :host {
@@ -29,6 +38,12 @@
             border: none;
             padding: 0;
             cursor: pointer;
+            transition: transform .3s ease, filter .3s ease;
+
+            &:hover {
+                transform: scale(1.15) rotate(90deg);
+                filter: drop-shadow(0 0 6px var(--neon));
+            }
         }
     }
 
