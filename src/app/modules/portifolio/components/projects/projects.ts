@@ -52,11 +52,25 @@ export class Projects {
         }
       ]
     },
+    {
+      src: 'https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/assets/img/og-image-lista-de-tarefas.png',
+      alt: 'imagem do projeto Lista de Tarefas',
+      title:'Lista de Tarefas',
+      width: '100px',
+      height: '51px',
+      description: 'Aplicação de lista de tarefas desenvolvida em Angular, com foco em organização de atividades do dia a dia, interface responsiva e boas práticas de front-end.',
+      links: [
+        {
+          name: 'Conheça o projeto',
+          href: 'https://lista-de-tarefa-brown.vercel.app/'
+        }
+      ]
+    },
   ])
 
   public openDialog(data:IProjects){
     this.#dialog.open(DialogProjects, {
-      data, 
+      data,
       panelClass: EDialogPanelClass.PROJECTS
     })
   }

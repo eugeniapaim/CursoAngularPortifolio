@@ -14,7 +14,7 @@ export class Experiences {
     {
       summary: {
         strong: 'Desenvolvedora Front-end',
-        p: "Instituto Eldorado | Junho 2026 - Atual"
+        p: "Instituto Eldorado | 2026"
       },
       text: "<p>Desde o início de junho, atuo como estagiária de Desenvolvimento Front-end, onde, com o acompanhamento da minha mentora, venho aprimorando constantemente minhas habilidades técnicas. Atualmente, participo do desenvolvimento e manutenção de uma aplicação utilizando Angular e TypeScript, adquirindo experiência prática em desenvolvimento web, criação de interfaces e boas práticas de programação."
     },

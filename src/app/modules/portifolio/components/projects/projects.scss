@@ -60,14 +60,14 @@
                 cursor: pointer;
 
                 background: var(--black-020);
-                border: 2px solid var(--primary);
+                border: 2px solid var(--neon);
                 border-radius: 7px;
                 transition: .35s ease;
 
                 &:hover {
-                    background-color: var(--primary);
+                    background-color: var(--neon-010);
                     transform: scale(1.08);
-                    box-shadow: 0 0 26px rgba(47, 191, 113, .5);
+                    box-shadow: 0 0 26px var(--neon);
                 }
             }
         }

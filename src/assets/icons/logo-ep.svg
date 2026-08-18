@@ -1,0 +1,13 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Logo EP — Eugênia Paim</title>
+  <desc>Monograma com as iniciais E e P dentro de um emblema hexagonal, em gradiente verde para ciano sobre fundo escuro.</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2fbf71"/>
+      <stop offset="100%" stop-color="#29f1ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="102" fill="#10101a"/>
+  <polygon points="120,29 199,74 199,166 120,211 41,166 41,74" fill="none" stroke="url(#grad)" stroke-width="4"/>
+  <text x="120" y="148" text-anchor="middle" font-family="'Space Grotesk','Arial',sans-serif" font-weight="700" font-size="78" letter-spacing="-2" fill="url(#grad)">EP</text>
+</svg>

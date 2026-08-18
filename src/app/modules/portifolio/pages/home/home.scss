@@ -9,11 +9,11 @@
     }
 
     // pequena animação de entrada, aplicada às seções principais
+    // (sem mexer no "display" — cada componente já define o próprio, ex: flex)
     app-header,
     app-knowledge,
     app-experiences,
     app-projects {
-        display: block;
         animation: fadeInUp .7s ease both;
     }
 

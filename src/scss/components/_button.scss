@@ -15,15 +15,16 @@
     }
 
     &.btn-primary {
-        color: var(--grey);
-        background-color: var(--primary);
-        border: solid 1px var(--primary);
+        color: var(--white);
+        font-weight: 600;
+        background-color: var(--neon);
+        border: solid 1px var(--neon);
 
         &:hover {
             transform: scale(1.08);
-            background-color: var(--primary-010);
+            background-color: var(--neon-010);
             color: var(--white);
-            box-shadow: 0 0 18px rgba(47, 191, 113, .55);
+            box-shadow: 0 0 18px var(--neon);
         }
     }
 
